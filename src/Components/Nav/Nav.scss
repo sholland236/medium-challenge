@@ -1,0 +1,25 @@
+.nav {
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    &__left {
+        display: flex;
+        align-items: flex-end;
+        h1 {
+            padding: 15px;
+            padding-bottom: 25px;
+        }
+    }
+    &__right {
+        display: flex;
+        align-items: flex-end;
+        height: 80px;
+        padding: 15px;
+        h5 {
+            padding: 15px;
+            color: grey;
+        }
+    }
+}
